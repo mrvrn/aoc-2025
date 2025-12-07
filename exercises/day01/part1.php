@@ -24,4 +24,4 @@ foreach ($lines as $line) {
     }
     
     echo "direction: {$direction}, value: {$value}, amount: {$amount}, current_position: {$current_position}<br>";
-}+-
+}
