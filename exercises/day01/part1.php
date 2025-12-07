@@ -2,11 +2,8 @@
 
 require_once(__DIR__ . '/../../function/find_input.php');
 
-$min = 0;
-$max = 99;
 $current_position = 50;
 $amount = 0;
-$remainder = 0;
 
 $input_file = find_input_file(__FILE__);
 $input_data = file_get_contents($input_file);
